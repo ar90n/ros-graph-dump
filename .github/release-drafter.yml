@@ -4,7 +4,6 @@ categories:
   - title: '🚀 Features'
     labels:
       - 'feat'
-      - 'enhancement'
   - title: '🐛 Bug Fixes'
     labels:
       - 'fix'
@@ -12,9 +11,8 @@ categories:
     labels:
       - 'chore'
       - 'refactor'
-      - 'ci'
-      - 'test'
       - 'style'
+      - 'ci'
   - title: '📚 Documentation'
     label: 'docs'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
