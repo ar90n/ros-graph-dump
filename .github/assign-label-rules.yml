@@ -8,4 +8,3 @@ chore:
   - head-branch: ['^style']
 doc:
   - head-branch: ['^doc']
-
