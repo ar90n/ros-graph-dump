@@ -1,0 +1,11 @@
+feat:
+  - head-branch: ['^feat']
+fix:
+  - head-branch: ['^fix']
+chore:
+  - head-branch: ['^chore']
+  - head-branch: ['^refactor']
+  - head-branch: ['^style']
+doc:
+  - head-branch: ['^doc']
+
