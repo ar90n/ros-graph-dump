@@ -6,5 +6,6 @@ chore:
   - head-branch: ['^chore']
   - head-branch: ['^refactor']
   - head-branch: ['^style']
+  - head-branch: ['^ci']
 doc:
   - head-branch: ['^doc']
