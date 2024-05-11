@@ -56,6 +56,7 @@ $ rgd
 - Python 3.8+
 - ROS1
 - poetry (for dependency management)
+- ros-noetic-rospy-tutorials (for development)
 
 ## Installation
 
