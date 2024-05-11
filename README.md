@@ -1,4 +1,4 @@
-# ROS Graph Dump
+# ros-graph-dump
 
 A tool to dump the relationship of ROS nodes and ROS topics as JSON Graph Format.
 
@@ -78,7 +78,7 @@ $ rgd
 
 To dump the ROS graph, use the following command:
 ```
-poetry run rgd [--filter FILTER] [--output OUTPUT] [--graph-type GRAPH_TYPE]
+rgd [--filter FILTER] [--output OUTPUT] [--graph-type GRAPH_TYPE]
 ```
 
 - `--filter FILTER`: Filter the graph based on node or topic names (optional)
@@ -88,16 +88,16 @@ poetry run rgd [--filter FILTER] [--output OUTPUT] [--graph-type GRAPH_TYPE]
 Examples:
 ```
 # Dump the entire graph to stdout
-poetry run rgd
+rgd
 
 # Dump the graph to a file
-poetry run rgd --output graph.json
+rgd --output graph.json
 
 # Dump the node-to-node graph
-poetry run rgd -t nn
+rgd -t nn
 
 # Dump the graph with a filter
-poetry run rgd --filter /my_node
+rgd --filter /my_node
 ```
 
 ## Running Tests
