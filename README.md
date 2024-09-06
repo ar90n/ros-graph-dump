@@ -4,7 +4,7 @@ A tool to dump the relationship of ROS nodes and ROS topics as JSON Graph Format
 
 ## Features
 
-- Supports ROS1
+- Supports only ROS
 - Dumps the graph of ROS nodes and topics
 - Filters the graph based on node or topic names
 - Outputs the graph in JSON format using NetworkX
